@@ -1,0 +1,40 @@
+body, svg {
+	background: black;
+}
+
+svg {
+	display: inline-block;
+}
+
+.block {
+	text-align: center;
+}
+
+.block:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em;
+}
+
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+p {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Georgia, serif;
+	font-size: 24px;
+	font-style: italic;
+	margin-top: 12px;
+}
+
+path {
+	stroke: white;
+	stroke-width: 2;
+	fill: black;
+}
